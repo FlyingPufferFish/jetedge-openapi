@@ -10,6 +10,9 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
   version: 1.0-SNAPSHOT-oas3
+servers:
+- url: https://vit-timetabling-230c1835ad5a.herokuapp.com
+  description: Deployed Frontend server
 paths:
   /login:
     get:
